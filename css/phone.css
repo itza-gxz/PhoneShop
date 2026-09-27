@@ -1,0 +1,217 @@
+
+
+body {
+    background: #f2f2f2;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px;
+    animation: fade 2s;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.navbar-brand img {
+    width: 130px;
+    margin-left: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s;
+    animation: float 2s infinite alternate;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+@keyframes float {
+    from {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-10px)
+    }
+}
+
+.phone-img {
+    height: 250px;
+    padding: 20px;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+.buy-btn {
+
+    transition: .5s;
+}
+
+.buy-btn:hover {
+    transform: scale(1.1);
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.phone-img {
+    height: 250px;
+    padding: 20px;
+    object-fit: contain;
+    transition: .5s;
+}
+
+.phone-img:hover {
+    transform: scale(1.15);
+}
+
+.heart-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.heart-btn:hover {
+    background: red;
+    color: white;
+    transform: scale(1.2);
+}
+
+.cart-btn {
+    transition: .5s;
+}
+
+.cart-btn:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+
+.best-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.5s;
+    animation:fadeUp 1s ease;
+}
+
+.best-card:hover{
+    transform:translateY(-15px);
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.phone-img{
+    height:250px;
+    object-fit:contain;
+    padding:15px;
+    transition:.5s;
+}
+.best-card{
+    border:3px solid #0d6efd;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.5s;
+    animation:fadeUp 1s ease;
+    background:#fff;
+}
+
+.best-card:hover{
+    transform:translateY(-15px);
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+    border-color:#ffc107;
+}
+.best-card{
+    border:3px solid transparent;
+    border-radius:20px;
+    background:
+        linear-gradient(white,white) padding-box,
+        linear-gradient(135deg,#0d6efd,#00c6ff,#ffc107) border-box;
+    overflow:hidden;
+    transition:.5s;
+}
+.badge{
+    border:2px solid white;
+    padding:8px 12px;
+    font-size:14px;
+}
+.carousel{
+    border-bottom:2px solid #ddd;
+    background:#f8f9fa;
+}
+
+.phone-img{
+    height:250px;
+    object-fit:contain;
+    padding:15px;
+    border:2px solid #e9ecef;
+    margin:10px;
+    border-radius:15px;
+}
+.best-card:hover .phone-img{
+    transform:scale(1.08);
+}
+
+.badge{
+    z-index:10;
+    font-size:14px;
+}
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
